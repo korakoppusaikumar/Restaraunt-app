@@ -1,0 +1,63 @@
+#homepage-hero .slick-title .vertical-align.hero-content{
+    flex-direction: column;
+    height: initial;
+}
+
+/*IE Hack*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #homepage-hero .slick-title .vertical-align.hero-content{
+        height: 100%;
+    }
+}
+
+.hero-first-text p{
+    margin-bottom: 0px !important;
+}
+
+.hero-cta{
+    color: #FFFFFF;
+    padding: 10px 3em;
+    border: 2px solid white;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 1.5em;
+    line-height: 1;
+}
+
+.hero-cta:hover{
+    background: white;
+    color: #1c1c1c;
+}
+
+.slick-notes{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 132px;
+}
+
+.slick-notes .item{
+    position: relative;
+    height: 47px !important;
+}
+
+.note{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.slick-nav .item p{
+    margin-bottom: 0px;
+}
+
+@media (max-width: 991px){
+    .hero-cta{
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .sc-hero h1, .sc-hero h1 p {
+        font-size: 28px;
+    }
+}   

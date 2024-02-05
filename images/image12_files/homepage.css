@@ -1,0 +1,159 @@
+h2{
+    font-family: "Swiss721 BoldC";
+    text-transform: initial !important;
+}
+
+.slick-slide .hero-first-text, .slick-slide .hero-first-text p{
+    font-style: italic;
+    font-size: 42px;
+}
+
+
+/*Banner*/
+#home-sc-banner{
+    display: none;
+}
+.banner-container {
+
+    position: relative;
+    max-width: 1140px;
+    margin: 30px auto;
+    background:#000000 url('Banner_Dinner_1290x384@2x.jpg');
+    background-size: cover;
+}
+.banner-container::before {
+    content: '';
+    width: 100%;
+    padding-top: 29.6%;
+    display: block;
+}
+.banner-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    /*padding: 70px 0 0 90px;*/
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-container .member-info .s-btn {
+    position: absolute;
+    bottom: 55px;
+}
+.banner-container h2 {
+    color: #fff;
+    text-transform: none;
+    font-family: "Aldine721 Lt BT";
+}
+.body-lang-cn .banner-container h2 {
+    font-family: "Sung Bold";
+}
+
+.banner-container .value {
+    color: #FF9662;
+}
+
+.member-info h2{
+    /*font-style: italic;*/
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+.member-info h5{
+    font-family: "Aldine721 Lt BT";
+    margin-bottom: 30px;
+    color: white;
+}
+.body-lang-cn .member-info h5{
+    font-family: 'Sung';
+    font-weight: bold;
+}
+.banner-container .member-info a{
+    background-color: white;
+    color: black !important;
+}
+
+
+
+@media (max-width: 991px) { 
+    .slick-slide .hero-first-text, .slick-slide .hero-first-text p{
+        font-size: 22px;
+        font-style: normal;
+    }
+}
+
+
+
+/*//////*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner-container .overlay {
+        padding: 40px 0 0 55px;
+    }
+    .banner-container .member-info .s-btn {
+        bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .sc.info{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .banner-container {
+        max-width: unset;
+        padding: 0;
+        background: #000000;
+    }
+    .banner-container::before {
+        background: url('member-banner-mobile-2021.jpg') no-repeat center center;
+        background-size: cover;
+        padding-top: 107%;
+        opacity: 0.7;
+    }
+    .banner-container h3 {
+        line-height: 1.35;
+    }
+    .banner-container .overlay {
+        width: 100%;
+        height: 60%;
+        padding: 0 40px;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    .banner-container .member-info .s-btn {
+        bottom: unset;
+        top: 200px;
+    }
+    .body-lang-cn  .banner-container .overlay,
+    .body-lang-zh  .banner-container .overlay {
+        height: 50%;
+    }
+    .body-lang-cn  .banner-container .member-info .s-btn,
+    .body-lang-zh  .banner-container .member-info .s-btn {
+        top: 165px;
+    }
+    .member-selector .dropdown-menu {
+        min-width: 100%;
+    }
+
+}
+@media (max-width: 575px) {
+    .body-lang-cn .banner-container h2,
+    .body-lang-zh .banner-container h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 375px) {
+    .body-lang-cn .banner-container h2,
+    .body-lang-zh .banner-container h2 {
+        font-size: 26px;
+    }
+}
+@media (max-width: 320px) {
+
+    .body-lang-cn .banner-container h2,
+    .body-lang-zh .banner-container h2 {
+        font-size: 21px;
+    }
+}

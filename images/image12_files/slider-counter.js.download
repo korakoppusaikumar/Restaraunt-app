@@ -1,0 +1,45 @@
+function sliderCounter(obj, slick, infinite = false, slideToScroll = 1) {
+	updateCounter(obj, infinite);
+	var currentSlide;
+	obj
+		.parent()
+		.find(".c-slider-counter .prev")
+		.on("click", function () {
+			obj.slick("slickPrev");
+			updateCounter(obj, infinite);
+		});
+	obj
+		.parent()
+		.find(".c-slider-counter .next")
+		.on("click", function () {
+			obj.slick("slickNext");
+			updateCounter(obj, infinite);
+		});
+	obj.on("afterChange", function () {
+		updateCounter(obj, infinite);
+	});
+	function updateCounter(obj, infinite) {
+		currentSlide = slick.currentSlide ? Math.ceil((slick.currentSlide + 1) / slideToScroll) : 1;
+		slidesCount = Math.ceil(slick.slideCount / slideToScroll);
+		obj
+			.parent()
+			.find(".c-slider-counter .counter")
+			.text(
+				padLeadingZeros(currentSlide, 2) + " / " + padLeadingZeros(slidesCount, 2)
+			);
+		if (currentSlide == 1 && infinite == false) {
+			obj.parent().find(".c-slider-counter .prev").removeClass("show");
+			obj.parent().find(".c-slider-counter .next").addClass("show");
+		} else if (currentSlide == slidesCount && infinite == false) {
+			obj.parent().find(".c-slider-counter .prev").addClass("show");
+			obj.parent().find(".c-slider-counter .next").removeClass("show");
+		} else {
+			$(".c-slider-counter .prev,.c-slider-counter .next").addClass("show");
+		}
+	}
+	function padLeadingZeros(num, size) {
+		var s = num + "";
+		while (s.length < size) s = "0" + s;
+		return s;
+	}
+}

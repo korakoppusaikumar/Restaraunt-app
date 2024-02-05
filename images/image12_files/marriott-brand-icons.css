@@ -1,0 +1,216 @@
+@font-face{
+  font-family: 'Marriott-Brands';
+  src:url(Marriott-Brand-Icons.eot?65xkc1);
+  src:url(Marriott-Brand-Icons.eot?65xkc1#iefix) format("embedded-opentype"),
+  url(Marriott-Brand-Icons.ttf?65xkc1) format("truetype"),
+  url(Marriott-Brand-Icons.woff?65xkc1) format("woff"),
+  url(Marriott-Brand-Icons.svg?65xkc1#Marriott-Brand-Icons) format("svg");
+  font-weight:400;
+  font-style:normal
+}
+
+/* BRANDS 1 */
+.brand-icon-the-ritz-carlton-rewards:before{
+	content: "\e90a";
+}
+.brand-icon-the-ritz-carlton:before{
+	content: "\e90b";
+}
+.brand-icon-edition:before{
+	content: "\e929";
+}
+.brand-icon-jw-marriott:before{
+	content: "\e903";
+}
+.brand-icon-autograph-collection-hotels:before{
+	content: "\e927";
+}
+.brand-icon-renaissance-hotels:before{
+	content: "\e926";
+}
+.brand-icon-marriott-hotels:before{
+	content: "\e925";
+}
+.brand-icon-delta-hotels:before{
+	content: "\e901";
+}
+.brand-icon-marriott-apartments:before{
+	content: "\e923";
+}
+.brand-icon-marriott-vacation-club:before{
+	content: "\e904";
+}
+
+/* BRANDS 2 */
+.brand-icon-marriott-rewards:before{
+	content: "\e921";
+}
+.brand-icon-gaylord-hotels:before{
+	content: "\e920";
+}
+.brand-icon-ac-hotels:before{
+	content: "\e91f";
+}
+.brand-icon-courtyard:before{
+	content: "\e900";
+}
+.brand-icon-residence-inn:before{
+	content: "\e906";
+}
+.brand-icon-springhill-suites:before{
+	content: "\e907";
+}
+.brand-icon-fairfield:before{
+	content: "\e902";
+}
+.brand-icon-towneplace-suites:before{
+	content: "\e908";
+}
+.brand-icon-protea-hotels:before{
+	content: "\e905";
+}
+.brand-icon-moxy-hotels:before{
+	content: "\e918";
+}
+
+/* BRANDS 3 */
+.brand-icon-starwood-preferred-guest:before{
+	content: "\e917";
+}
+.brand-icon-st-regis:before{
+	content: "\e916";
+}
+.brand-icon-the-luxury-collection:before{
+	content: "\e915";
+}
+.brand-icon-w-hotels:before{
+	content: "\e914";
+}
+.brand-icon-westin:before{
+	content: "\e913";
+}
+.brand-icon-sheraton:before{
+	content: "\e912";
+}
+.brand-icon-le-meridien:before{
+	content: "\e911";
+}
+.brand-icon-tribute-portfolio:before{
+	content: "\e909";
+}
+.brand-icon-design-hotels:before{
+	content: "\e90f";
+}
+.brand-icon-aloft:before{
+	content: "\e90e";
+}
+.brand-icon-four-points:before{
+	content: "\e90d";
+}
+.brand-icon-element:before{
+	content: "\e90c";
+}   
+
+/* === FONT SIZE === */
+
+/* BRANDS 1 */
+.brand-icon-the-ritz-carlton-rewards{
+	font-size: 18px;
+}
+.brand-icon-the-ritz-carlton{
+	font-size: 39px;
+}
+.brand-icon-edition{
+	font-size: 10px;
+}
+.brand-icon-jw-marriott{
+	font-size: 25px;
+}
+.brand-icon-autograph-collection-hotels{
+	font-size: 25px;
+}
+.brand-icon-renaissance-hotels{
+	font-size: 32px;
+}
+.brand-icon-marriott-hotels{
+	font-size: 34px;
+}
+.brand-icon-delta-hotels{
+	font-size: 43px;
+}
+.brand-icon-marriott-apartments{
+	font-size: 25px;
+}
+.brand-icon-marriott-vacation-club{
+	font-size: 24px;
+}
+
+/* BRANDS 2 */
+.brand-icon-marriott-rewards{
+	font-size: 36px;
+}
+.brand-icon-gaylord-hotels{
+	font-size: 32px;
+}
+.brand-icon-ac-hotels{
+	font-size: 29px;
+}
+.brand-icon-courtyard{
+	font-size: 7px;
+}
+.brand-icon-residence-inn{
+	font-size: 9px;
+}
+.brand-icon-springhill-suites{
+	font-size: 19px;
+}
+.brand-icon-fairfield{
+	font-size: 11px;
+}
+.brand-icon-towneplace-suites{
+	font-size: 16px;
+}
+.brand-icon-protea-hotels{
+	font-size: 22px;
+}
+.brand-icon-moxy-hotels{
+	font-size: 18px;
+}
+
+/* BRANDS 3 */
+.brand-icon-starwood-preferred-guest{
+	font-size: 21px;
+}
+.brand-icon-st-regis{
+	font-size: 23px;
+}
+.brand-icon-the-luxury-collection{
+	font-size: 25px;
+}
+.brand-icon-w-hotels{
+	font-size: 29px;
+}
+.brand-icon-westin{
+	font-size: 9px;
+}
+.brand-icon-sheraton{
+	font-size: 22px;
+}
+.brand-icon-le-meridien{
+	font-size: 8px;
+}
+.brand-icon-tribute-portfolio{
+	font-size: 12px;
+}
+.brand-icon-design-hotels{
+	font-size: 13px;
+}
+.brand-icon-aloft{
+	font-size: 12px;
+}
+.brand-icon-four-points{
+	font-size: 15px;
+}
+.brand-icon-element{
+	font-size: 29px;
+}  

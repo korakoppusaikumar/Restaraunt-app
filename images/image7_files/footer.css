@@ -1,0 +1,2811 @@
+@font-face {
+    font-family: MarriottIcons;
+    src: url(footer-fonts/marriott-icons.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: ProfileIcons;
+    src: url(footer-fonts/profile-icons.eot);
+    src: url(footer-fonts/profile-icons.eot?#iefix) format("embedded-opentype"), url(footer-fonts/profile-icons.woff) format("woff"), url(footer-fonts/profile-icons.svg) format("svg")
+}
+
+@font-face {
+    font-family: BrandLogoIcons;
+    src: url(footer-fonts/brand-logo-icons.eot);
+    src: url(footer-fonts/brand-logo-icons.eot?#iefix) format("embedded-opentype"), url(footer-fonts/brand-logo-icons.woff) format("woff"), url(footer-fonts/brand-logo-icons.ttf) format("truetype"), url(footer-fonts/brand-logo-icons.svg) format("svg")
+}
+
+@font-face {
+    font-family: PortfolioLogoIcons;
+    src: url(footer-fonts/portfolio-logo-icons.eot);
+    src: url(footer-fonts/portfolio-logo-icons.eot?#iefix) format("embedded-opentype"), url(footer-fonts/portfolio-logo-icons.woff) format("woff"), url(footer-fonts/portfolio-logo-icons.ttf) format("truetype"), url(footer-fonts/portfolio-logo-icons.svg) format("svg")
+}
+
+/*@font-face {*/
+/*    font-family: proxima-nova;*/
+/*    src: url(footer-fonts/proxima-nova-regular.eot);*/
+/*    src: url(footer-fonts/proxima-nova-regular.eot) format("embedded-opentype"), url(footer-fonts/proxima-nova-regular.woff) format("woff"), url(footer-fonts/proxima-nova-regular.ttf) format("truetype"), url(footer-fonts/proxima-nova-regular.svg) format("svg");*/
+/*    font-weight: 500*/
+/*}*/
+
+@font-face {
+    font-family: 'Proxima Nova Bold';
+    src: url('footer-fonts/ProximaNova-Bold.otf') format('opentype'),
+    url('footer-fonts/ProximaNova-Bold.woff2') format('woff2'),
+    url('footer-fonts/ProximaNova-Bold.woff') format('woff');
+}
+
+
+.l-margin {
+    margin: 1rem
+}
+
+.l-margin-auto {
+    margin: auto
+}
+
+.l-margin-top-double {
+    margin-top: 2rem
+}
+
+.l-margin-bottom-double {
+    margin-bottom: 2rem
+}
+
+.l-margin-top-triple {
+    margin-top: 3rem
+}
+
+.l-margin-bottom-triple {
+    margin-bottom: 3rem
+}
+
+.l-margin-top-triple-three-quarters {
+    margin-top: 3.75rem
+}
+
+.l-margin-bottom-triple-three-quarters {
+    margin-bottom: 3.75rem
+}
+
+.l-margin-top {
+    margin-top: 1rem
+}
+
+.l-margin-left {
+    margin-left: 1rem
+}
+
+.l-margin-left-double {
+    margin-left: 2rem
+}
+
+.l-margin-bottom {
+    margin-bottom: 1rem
+}
+
+.l-margin-right {
+    margin-right: 1rem
+}
+
+.l-margin-right-double {
+    margin-right: 2rem
+}
+
+.l-margin-three-quarters {
+    margin: .75rem
+}
+
+.l-margin-top-three-quarters {
+    margin-top: .75rem
+}
+
+.l-margin-right-three-quarters {
+    margin-right: .75rem
+}
+
+.l-margin-bottom-three-quarters {
+    margin-bottom: .75rem
+}
+
+.l-margin-left-three-quarters {
+    margin-left: .75rem
+}
+
+.l-margin-half {
+    margin: .5rem
+}
+
+.l-margin-top-half {
+    margin-top: .5rem
+}
+
+.l-margin-right-half {
+    margin-right: .5rem
+}
+
+.l-margin-bottom-half {
+    margin-bottom: .5rem
+}
+
+.l-margin-left-half {
+    margin-left: .5rem
+}
+
+.l-margin-quarter {
+    margin: .25rem
+}
+
+.l-margin-top-quarter {
+    margin-top: .25rem
+}
+
+.l-margin-right-quarter {
+    margin-right: .25rem
+}
+
+.l-margin-bottom-quarter {
+    margin-bottom: .25rem
+}
+
+.l-margin-left-quarter {
+    margin-left: .25rem
+}
+
+.l-margin-none {
+    margin: 0
+}
+
+.l-margin-top-none {
+    margin-top: 0
+}
+
+.l-margin-right-none {
+    margin-right: 0
+}
+
+.l-margin-bottom-none {
+    margin-bottom: 0
+}
+
+.l-margin-left-none {
+    margin-left: 0
+}
+
+.l-margin-zero-auto {
+    margin: 0 auto
+}
+
+.l-margin-top-gutter {
+    margin-top: 1.25rem
+}
+
+.l-margin-right-gutter {
+    margin-right: 1.25rem
+}
+
+.l-margin-bottom-gutter {
+    margin-bottom: 1.25rem
+}
+
+.l-margin-left-gutter {
+    margin-left: 1.25rem
+}
+
+.l-margin-five-quarters {
+    margin: 1.25rem
+}
+
+.l-margin-top-five-quarters {
+    margin-top: 1.25rem
+}
+
+.l-margin-bottom-five-quarters {
+    margin-bottom: 1.25rem
+}
+
+.l-margin-left-five-quarters {
+    margin-left: 1.25rem
+}
+
+.l-margin-right-five-quarters {
+    margin-right: 1.25rem
+}
+
+.l-margin-one-and-half {
+    margin: 1.5rem
+}
+
+.l-margin-top-one-and-half {
+    margin-top: 1.5rem
+}
+
+.l-margin-bottom-one-and-half {
+    margin-bottom: 1.5rem
+}
+
+.l-margin-left-one-and-half {
+    margin-left: 1.5rem
+}
+
+.l-margin-right-one-and-half {
+    margin-right: 1.5rem
+}
+
+.l-margin-seven-quarters {
+    margin: 1.75rem
+}
+
+.l-margin-top-seven-quarters {
+    margin-top: 1.75rem
+}
+
+.l-margin-bottom-seven-quarters {
+    margin-bottom: 1.75rem
+}
+
+.l-margin-left-seven-quarters {
+    margin-left: 1.75rem
+}
+
+.l-margin-right-seven-quarters {
+    margin-right: 1.75rem
+}
+
+.l-padding {
+    padding: 1rem
+}
+
+.l-padding-top {
+    padding-top: 1rem
+}
+
+.l-padding-top-double {
+    padding-top: 2rem
+}
+
+.l-padding-top-triple {
+    padding-top: 3rem
+}
+
+.l-padding-right {
+    padding-right: 1rem
+}
+
+.l-padding-right-double {
+    padding-right: 2rem
+}
+
+.l-padding-right-triple {
+    padding-right: 3rem
+}
+
+.l-padding-bottom {
+    padding-bottom: 1rem
+}
+
+.l-padding-bottom-double {
+    padding-bottom: 2rem
+}
+
+.l-padding-bottom-triple {
+    padding-bottom: 3rem
+}
+
+.l-padding-left {
+    padding-left: 1rem
+}
+
+.l-padding-left-double {
+    padding-left: 2rem
+}
+
+.l-padding-left-triple {
+    padding-left: 3rem
+}
+
+.l-padding-three-quarters {
+    padding: .75rem
+}
+
+.l-padding-top-three-quarters {
+    padding-top: .75rem
+}
+
+.l-padding-right-three-quarters {
+    padding-right: .75rem
+}
+
+.l-padding-bottom-three-quarters {
+    padding-bottom: .75rem
+}
+
+.l-padding-left-three-quarters {
+    padding-left: .75rem
+}
+
+.l-padding-half {
+    padding: .5rem
+}
+
+.l-padding-top-half {
+    padding-top: .5rem
+}
+
+.l-padding-right-half {
+    padding-right: .5rem
+}
+
+.l-padding-bottom-half {
+    padding-bottom: .5rem
+}
+
+.l-padding-left-half {
+    padding-left: .5rem
+}
+
+.l-padding-quarter {
+    padding: .25rem
+}
+
+.l-padding-top-quarter {
+    padding-top: .25rem
+}
+
+.l-padding-right-quarter {
+    padding-right: .25rem
+}
+
+.l-padding-bottom-quarter {
+    padding-bottom: .25rem
+}
+
+.l-padding-left-quarter {
+    padding-left: .25rem
+}
+
+.l-padding-none {
+    padding: 0
+}
+
+.l-padding-top-none {
+    padding-top: 0
+}
+
+.l-padding-right-none {
+    padding-right: 0
+}
+
+.l-padding-bottom-none {
+    padding-bottom: 0
+}
+
+.l-padding-left-none {
+    padding-left: 0
+}
+
+.l-padding-five-quarters {
+    padding: 1.25rem
+}
+
+.l-padding-top-five-quarters {
+    padding-top: 1.25rem
+}
+
+.l-padding-bottom-five-quarters {
+    padding-bottom: 1.25rem
+}
+
+.l-padding-left-five-quarters {
+    padding-left: 1.25rem
+}
+
+.l-padding-right-five-quarters {
+    padding-right: 1.25rem
+}
+
+.l-padding-one-and-half {
+    padding: 1.5rem
+}
+
+.l-padding-top-one-and-half {
+    padding-top: 1.5rem
+}
+
+.l-padding-bottom-one-and-half {
+    padding-bottom: 1.5rem
+}
+
+.l-padding-left-one-and-half {
+    padding-left: 1.5rem
+}
+
+.l-padding-right-one-and-half {
+    padding-right: 1.5rem
+}
+
+.l-padding-seven-quarters {
+    padding: 1.75rem
+}
+
+.l-padding-top-seven-quarters {
+    padding-top: 1.75rem
+}
+
+.l-padding-bottom-seven-quarters {
+    padding-bottom: 1.75rem
+}
+
+.l-padding-left-seven-quarters {
+    padding-left: 1.75rem
+}
+
+.l-padding-right-seven-quarters {
+    padding-right: 1.75rem
+}
+
+.l-pos-rel, .l-pos-relative {
+    position: relative
+}
+
+.l-pos-absolute {
+    position: absolute
+}
+
+.l-pos-fixed {
+    position: fixed
+}
+
+.l-pos-top {
+    top: 0
+}
+
+.l-pos-top-three-quarters {
+    top: .75em
+}
+
+.l-pos-right {
+    right: 0
+}
+
+.l-pos-bottom {
+    bottom: 0
+}
+
+.l-pos-bottom-one {
+    bottom: 1px
+}
+
+.l-pos-left {
+    left: 0
+}
+
+.l-align-vertical {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.t-min-height-s {
+    min-height: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem
+}
+
+.t-min-height-m {
+    min-height: 1.25rem;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem
+}
+
+.t-min-height-l {
+    min-height: 1.5625rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem
+}
+
+.t-min-height-xl {
+    min-height: 3.125rem;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem
+}
+
+.t-capitalize {
+    text-transform: capitalize
+}
+
+.t-lowercase {
+    text-transform: lowercase
+}
+
+.t-uppercase {
+    text-transform: uppercase
+}
+
+.l-center-align {
+    text-align: center
+}
+
+.l-right-align {
+    text-align: right
+}
+
+.l-left-align {
+    text-align: left
+}
+
+.l-baseline-valign {
+    vertical-align: baseline
+}
+
+.l-top-valign {
+    vertical-align: top
+}
+
+.l-text-top-valign {
+    vertical-align: text-top
+}
+
+.l-middle-valign {
+    vertical-align: middle
+}
+
+.l-bottom-valign {
+    vertical-align: bottom
+}
+
+.l-text-bottom-valign {
+    vertical-align: text-bottom
+}
+
+.l-width-max {
+    width: 100%
+}
+
+.l-width-none {
+    width: 0
+}
+
+.l-width-three-quarters {
+    width: 75%
+}
+
+.l-width-one-quarters {
+    width: 25%
+}
+
+.l-width-half {
+    width: 50%
+}
+
+.l-width-four-fifths {
+    width: 45%
+}
+
+.l-width-one-fourths {
+    width: 40%
+}
+
+.l-width-thirds {
+    width: 35%
+}
+
+.l-width-one-thirds {
+    width: 33%
+}
+
+.l-width-one-thirty {
+    width: 30%
+}
+
+.l-width-two-thirds {
+    width: 67%
+}
+
+.l-max-width-max {
+    max-width: 100%
+}
+
+.t-border-hover-standard-10:hover, .t-border-standard-10 {
+    border: .0625rem solid #1c1c1c
+}
+
+.t-border-standard-110 {
+    border: .0625rem solid #d2d2d2
+}
+
+.t-border-standard-120 {
+    border: .0625rem solid #e6e6e6
+}
+
+.t-border-merch-10 {
+    border: .0625rem solid #ff9662
+}
+
+.t-border-darkred {
+    border-top: .0625rem solid #d0021b
+}
+
+.t-border-none {
+    border: none
+}
+
+.t-border-radius {
+    border-radius: .625rem
+}
+
+.t-border-left {
+    border-left: .0625rem solid
+}
+
+.t-border-right {
+    border-right: .0625rem solid
+}
+
+.t-border-top {
+    border-top: .0625rem solid
+}
+
+.t-border-bottom {
+    border-bottom: .0625rem solid
+}
+
+.t-border-color-standard-10 {
+    border-color: #1c1c1c
+}
+
+.t-border-color-standard-20 {
+    border-color: #fff
+}
+
+.t-border-color-standard-110 {
+    border-color: #d2d2d2
+}
+
+.t-border-color-member, .t-border-color-member-12 {
+    border-color: #ff9662
+}
+
+.t-border-color-silver-elite {
+    border-color: #707488
+}
+
+.t-border-color-gold-elite {
+    border-color: #8c6f49
+}
+
+.t-border-color-platinum-elite {
+    border-color: #5e5f61
+}
+
+.t-border-color-titanium-elite {
+    border-color: #554749
+}
+
+.t-border-color-ambassador-elite {
+    border-color: #231c19
+}
+
+.t-icon-dot.t-color-member-accent {
+    -webkit-text-stroke: 1px #b84c16
+}
+
+.l-password-validation {
+    position: absolute;
+    z-index: 61;
+    border: .0625rem solid #d2d2d2;
+    box-sizing: border-box;
+    border-radius: .25rem;
+    background-color: #fff;
+    height: 11rem
+}
+
+.l-password-validation li {
+    padding: 0;
+    margin: 1.25rem;
+    font-size: 1rem;
+    line-height: normal
+}
+
+.l-password-validation span {
+    margin-right: .1875rem
+}
+
+.l-overflow-hidden {
+    overflow: hidden
+}
+
+.l-overflow-scroll {
+    overflow: scroll
+}
+
+.l-overflow-auto {
+    overflow: auto
+}
+
+.l-overflow-initial {
+    overflow: initial
+}
+
+.l-overflow-inherit {
+    overflow: inherit
+}
+
+.l-s-margin-top {
+    margin-top: 1rem
+}
+
+.l-s-margin-top-three-quarters {
+    margin-top: .75rem
+}
+
+.l-s-margin-top-double {
+    margin-top: 2rem
+}
+
+.l-s-margin-top-quarter {
+    margin-top: .25rem
+}
+
+.l-s-margin-top-none {
+    margin-top: 0
+}
+
+.l-s-padding-top {
+    padding-top: 1rem
+}
+
+.l-s-padding-top-three-quarters {
+    padding-top: .75rem
+}
+
+.l-s-padding-top-double {
+    padding-top: 2rem
+}
+
+.l-s-padding-top-none {
+    padding-top: 0
+}
+
+.l-s-margin-right {
+    margin-right: 1rem
+}
+
+.l-s-margin-right-three-quarters {
+    margin-right: .75rem
+}
+
+.l-s-margin-right-double {
+    margin-right: 2rem
+}
+
+.l-s-margin-right-quarter {
+    margin-right: .25rem
+}
+
+.l-s-margin-right-none {
+    margin-right: 0
+}
+
+.l-s-padding-right {
+    padding-right: 1rem
+}
+
+.l-s-padding-right-three-quarters {
+    padding-right: .75rem
+}
+
+.l-s-padding-right-double {
+    padding-right: 2rem
+}
+
+.l-s-padding-right-none {
+    padding-right: 0
+}
+
+.l-s-margin-bottom {
+    margin-bottom: 1rem
+}
+
+.l-s-margin-bottom-three-quarters {
+    margin-bottom: .75rem
+}
+
+.l-s-margin-bottom-double {
+    margin-bottom: 2rem
+}
+
+.l-s-margin-bottom-quarter {
+    margin-bottom: .25rem
+}
+
+.l-s-margin-bottom-none {
+    margin-bottom: 0
+}
+
+.l-s-padding-bottom {
+    padding-bottom: 1rem
+}
+
+.l-s-padding-bottom-three-quarters {
+    padding-bottom: .75rem
+}
+
+.l-s-padding-bottom-double {
+    padding-bottom: 2rem
+}
+
+.l-s-padding-bottom-none {
+    padding-bottom: 0
+}
+
+.l-s-margin-left {
+    margin-left: 1rem
+}
+
+.l-s-margin-left-three-quarters {
+    margin-left: .75rem
+}
+
+.l-s-margin-left-double {
+    margin-left: 2rem
+}
+
+.l-s-margin-left-quarter {
+    margin-left: .25rem
+}
+
+.l-s-margin-left-none {
+    margin-left: 0
+}
+
+.l-s-padding-left {
+    padding-left: 1rem
+}
+
+.l-s-padding-left-three-quarters {
+    padding-left: .75rem
+}
+
+.l-s-padding-left-double {
+    padding-left: 2rem
+}
+
+.l-s-padding-left-none {
+    padding-left: 0
+}
+
+.l-s-text-align-left {
+    text-align: left
+}
+
+.l-s-text-align-right {
+    text-align: right
+}
+
+.l-s-text-align-center {
+    text-align: center
+}
+
+.l-s-text-align-inherit {
+    text-align: inherit
+}
+
+@media (min-width: 37.56rem) {
+    .l-m-margin-top {
+        margin-top: 1rem
+    }
+
+    .l-m-margin-top-three-quarters {
+        margin-top: .75rem
+    }
+
+    .l-m-margin-top-double {
+        margin-top: 2rem
+    }
+
+    .l-m-margin-top-half {
+        margin-top: .5rem
+    }
+
+    .l-m-margin-top-none {
+        margin-top: 0
+    }
+
+    .l-m-padding-top {
+        padding-top: 1rem
+    }
+
+    .l-m-padding-top-three-quarters {
+        padding-top: .75rem
+    }
+
+    .l-m-padding-top-double {
+        padding-top: 2rem
+    }
+
+    .l-m-padding-top-none {
+        padding-top: 0
+    }
+
+    .l-m-margin-right {
+        margin-right: 1rem
+    }
+
+    .l-m-margin-right-three-quarters {
+        margin-right: .75rem
+    }
+
+    .l-m-margin-right-double {
+        margin-right: 2rem
+    }
+
+    .l-m-margin-right-half {
+        margin-right: .5rem
+    }
+
+    .l-m-margin-right-none {
+        margin-right: 0
+    }
+
+    .l-m-padding-right {
+        padding-right: 1rem
+    }
+
+    .l-m-padding-right-three-quarters {
+        padding-right: .75rem
+    }
+
+    .l-m-padding-right-double {
+        padding-right: 2rem
+    }
+
+    .l-m-padding-right-none {
+        padding-right: 0
+    }
+
+    .l-m-margin-bottom {
+        margin-bottom: 1rem
+    }
+
+    .l-m-margin-bottom-three-quarters {
+        margin-bottom: .75rem
+    }
+
+    .l-m-margin-bottom-double {
+        margin-bottom: 2rem
+    }
+
+    .l-m-margin-bottom-half {
+        margin-bottom: .5rem
+    }
+
+    .l-m-margin-bottom-none {
+        margin-bottom: 0
+    }
+
+    .l-m-padding-bottom {
+        padding-bottom: 1rem
+    }
+
+    .l-m-padding-bottom-three-quarters {
+        padding-bottom: .75rem
+    }
+
+    .l-m-padding-bottom-double {
+        padding-bottom: 2rem
+    }
+
+    .l-m-padding-bottom-none {
+        padding-bottom: 0
+    }
+
+    .l-m-margin-left {
+        margin-left: 1rem
+    }
+
+    .l-m-margin-left-three-quarters {
+        margin-left: .75rem
+    }
+
+    .l-m-margin-left-double {
+        margin-left: 2rem
+    }
+
+    .l-m-margin-left-half {
+        margin-left: .5rem
+    }
+
+    .l-m-margin-left-none {
+        margin-left: 0
+    }
+
+    .l-m-padding-left {
+        padding-left: 1rem
+    }
+
+    .l-m-padding-left-three-quarters {
+        padding-left: .75rem
+    }
+
+    .l-m-padding-left-double {
+        padding-left: 2rem
+    }
+
+    .l-m-padding-left-none {
+        padding-left: 0
+    }
+
+    .l-m-margin-auto {
+        margin: auto
+    }
+
+    .l-m-text-align-left {
+        text-align: left
+    }
+
+    .l-m-text-align-right {
+        text-align: right
+    }
+
+    .l-m-text-align-center {
+        text-align: center
+    }
+
+    .l-m-text-align-inherit {
+        text-align: inherit
+    }
+
+    .l-m-display-inline-block {
+        display: inline-block
+    }
+
+    .l-m-display-block {
+        display: block
+    }
+
+    .l-m-display-inline {
+        display: inline
+    }
+
+    .l-m-display-none {
+        display: none
+    }
+
+    .l-m-float-left {
+        float: left
+    }
+
+    .l-m-float-right {
+        float: right
+    }
+
+    .l-m-float-none {
+        float: none
+    }
+}
+
+@media (min-width: 48.1rem) {
+    .l-l-margin-top {
+        margin-top: 1rem
+    }
+
+    .l-l-margin-top-three-quarters {
+        margin-top: .75rem
+    }
+
+    .l-l-margin-top-double {
+        margin-top: 2rem
+    }
+
+    .l-l-margin-top-none {
+        margin-top: 0
+    }
+
+    .l-l-padding-top {
+        padding-top: 1rem
+    }
+
+    .l-l-padding-top-half {
+        padding-top: .5rem
+    }
+
+    .l-l-padding-top-three-quarters {
+        padding-top: .75rem
+    }
+
+    .l-l-padding-top-double {
+        padding-top: 2rem
+    }
+
+    .l-l-padding-top-none {
+        padding-top: 0
+    }
+
+    .l-l-margin-right {
+        margin-right: 1rem
+    }
+
+    .l-l-margin-right-three-quarters {
+        margin-right: .75rem
+    }
+
+    .l-l-margin-right-double {
+        margin-right: 2rem
+    }
+
+    .l-l-margin-right-none {
+        margin-right: 0
+    }
+
+    .l-l-padding-right {
+        padding-right: 1rem
+    }
+
+    .l-l-padding-right-half {
+        padding-right: .5rem
+    }
+
+    .l-l-padding-right-three-quarters {
+        padding-right: .75rem
+    }
+
+    .l-l-padding-right-double {
+        padding-right: 2rem
+    }
+
+    .l-l-padding-right-none {
+        padding-right: 0
+    }
+
+    .l-l-margin-bottom {
+        margin-bottom: 1rem
+    }
+
+    .l-l-margin-bottom-three-quarters {
+        margin-bottom: .75rem
+    }
+
+    .l-l-margin-bottom-double {
+        margin-bottom: 2rem
+    }
+
+    .l-l-margin-bottom-none {
+        margin-bottom: 0
+    }
+
+    .l-l-padding-bottom {
+        padding-bottom: 1rem
+    }
+
+    .l-l-padding-bottom-half {
+        padding-bottom: .5rem
+    }
+
+    .l-l-padding-bottom-three-quarters {
+        padding-bottom: .75rem
+    }
+
+    .l-l-padding-bottom-double {
+        padding-bottom: 2rem
+    }
+
+    .l-l-padding-bottom-none {
+        padding-bottom: 0
+    }
+
+    .l-l-margin-left {
+        margin-left: 1rem
+    }
+
+    .l-l-margin-left-three-quarters {
+        margin-left: .75rem
+    }
+
+    .l-l-margin-left-double {
+        margin-left: 2rem
+    }
+
+    .l-l-margin-left-none {
+        margin-left: 0
+    }
+
+    .l-l-padding-left {
+        padding-left: 1rem
+    }
+
+    .l-l-padding-left-half {
+        padding-left: .5rem
+    }
+
+    .l-l-padding-left-three-quarters {
+        padding-left: .75rem
+    }
+
+    .l-l-padding-left-double {
+        padding-left: 2rem
+    }
+
+    .l-l-padding-left-none {
+        padding-left: 0
+    }
+
+    .l-l-margin-auto {
+        margin: auto
+    }
+
+    .l-l-text-align-left {
+        text-align: left
+    }
+
+    .l-l-text-align-right {
+        text-align: right
+    }
+
+    .l-l-text-align-center {
+        text-align: center
+    }
+
+    .l-l-text-align-inherit {
+        text-align: inherit
+    }
+
+    .l-l-display-inline-block {
+        display: inline-block
+    }
+
+    .l-l-display-block {
+        display: block
+    }
+
+    .l-l-display-inline {
+        display: inline
+    }
+
+    .l-l-display-none {
+        display: none
+    }
+
+    .l-l-float-left {
+        float: left
+    }
+
+    .l-l-float-right {
+        float: right
+    }
+
+    .l-l-float-none {
+        float: none
+    }
+}
+
+@media (min-width: 64.0625rem) {
+    .l-xl-margin-top {
+        margin-top: 1rem
+    }
+
+    .l-xl-margin-top-three-quarters {
+        margin-top: .75rem
+    }
+
+    .l-xl-margin-top-double {
+        margin-top: 2rem
+    }
+
+    .l-xl-margin-top-none {
+        margin-top: 0
+    }
+
+    .l-xl-padding-top {
+        padding-top: 1rem
+    }
+
+    .l-xl-padding-top-three-quarters {
+        padding-top: .75rem
+    }
+
+    .l-xl-padding-top-none {
+        padding-top: 0
+    }
+
+    .l-xl-padding-top-double {
+        padding-top: 2rem
+    }
+
+    .l-xl-margin-right {
+        margin-right: 1rem
+    }
+
+    .l-xl-margin-right-three-quarters {
+        margin-right: .75rem
+    }
+
+    .l-xl-margin-right-double {
+        margin-right: 2rem
+    }
+
+    .l-xl-margin-right-none {
+        margin-right: 0
+    }
+
+    .l-xl-padding-right {
+        padding-right: 1rem
+    }
+
+    .l-xl-padding-right-three-quarters {
+        padding-right: .75rem
+    }
+
+    .l-xl-padding-right-none {
+        padding-right: 0
+    }
+
+    .l-xl-padding-right-double {
+        padding-right: 2rem
+    }
+
+    .l-xl-margin-bottom {
+        margin-bottom: 1rem
+    }
+
+    .l-xl-margin-bottom-three-quarters {
+        margin-bottom: .75rem
+    }
+
+    .l-xl-margin-bottom-double {
+        margin-bottom: 2rem
+    }
+
+    .l-xl-margin-bottom-none {
+        margin-bottom: 0
+    }
+
+    .l-xl-padding-bottom {
+        padding-bottom: 1rem
+    }
+
+    .l-xl-padding-bottom-three-quarters {
+        padding-bottom: .75rem
+    }
+
+    .l-xl-padding-bottom-none {
+        padding-bottom: 0
+    }
+
+    .l-xl-padding-bottom-double {
+        padding-bottom: 2rem
+    }
+
+    .l-xl-margin-left {
+        margin-left: 1rem
+    }
+
+    .l-xl-margin-left-three-quarters {
+        margin-left: .75rem
+    }
+
+    .l-xl-margin-left-double {
+        margin-left: 2rem
+    }
+
+    .l-xl-margin-left-none {
+        margin-left: 0
+    }
+
+    .l-xl-padding-left {
+        padding-left: 1rem
+    }
+
+    .l-xl-padding-left-three-quarters {
+        padding-left: .75rem
+    }
+
+    .l-xl-padding-left-none {
+        padding-left: 0
+    }
+
+    .l-xl-padding-left-double {
+        padding-left: 2rem
+    }
+
+    .l-xl-margin-auto {
+        margin: auto
+    }
+
+    .l-xl-text-align-left {
+        text-align: left
+    }
+
+    .l-xl-text-align-right {
+        text-align: right
+    }
+
+    .l-xl-text-align-center {
+        text-align: center
+    }
+
+    .l-xl-text-align-inherit {
+        text-align: inherit
+    }
+
+    .l-xl-display-inline-block {
+        display: inline-block
+    }
+
+    .l-xl-display-block {
+        display: block
+    }
+
+    .l-xl-display-inline {
+        display: inline
+    }
+
+    .l-xl-display-none {
+        display: none
+    }
+
+    .l-xl-float-left {
+        float: left
+    }
+
+    .l-xl-float-right {
+        float: right
+    }
+
+    .l-xl-float-none {
+        float: none
+    }
+}
+
+.l-grid-center {
+    position: relative
+}
+
+.l-grid-center > * {
+    position: absolute;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.l-justify-flex-center {
+    justify-content: center;
+}
+
+.l-display-flex {
+    display: flex;
+}
+
+@media (min-width: 64.0625rem){
+
+    .l-xl-col-12:last-child {
+        margin-right: 0
+    }
+
+    .l-xl-col-12 {
+        width: calc(99.9% * 12/12 - 0rem);
+    }
+
+    .l-xl-col-12:nth-child(1n) {
+        /*float: left;*/
+        margin-right: 1.25rem;
+        clear: both;
+    }
+}
+
+.tile-logos-portfolio .t-logo-main {
+    position: absolute;
+    top: 1rem;
+    z-index: 3;
+    background: #fff;
+    padding: 0 .4375rem;
+}
+
+@media (min-width: 48.1rem){
+    .tile-logos-portfolio .t-logo-main {
+        padding: 0 .875rem;
+    }
+}
+
+
+.tile-logos-portfolio #portfolio-container span.l-category-title{
+    font-family: "Proxima Nova Bold";
+    font-size: 12px;
+}
+
+
+.t-icon-brand {
+    background-color: #1c1c1c
+}
+
+[class*=t-brand-icon-]:before, [class*=t-brand-logo-icon-]:before, [class*=t-program-logo-cn]:after, [class*=t-program-logo-cn]:before, [class*=t-program-logo]:after, [class*=t-program-logo]:before {
+    display: inline-block;
+    font-family: BrandLogoIcons;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+[class*=t-program-logo] {
+    position: relative
+}
+
+/*Removed old way to have the logo*/
+/*[class*=t-program-logo]:before {*/
+/*    position: absolute;*/
+/*    content: "\e921";*/
+/*    bottom: 0*/
+/*}*/
+
+/*[class*=t-program-logo]:after {*/
+/*    content: "\e920"*/
+/*}*/
+
+
+
+[class*=t-program-logo-wo-tm] {
+    position: relative
+}
+
+[class*=t-program-logo-wo-tm]:before {
+    position: absolute;
+    content: "\e921";
+    bottom: 0
+}
+
+[class*=t-program-logo-wo-tm]:after {
+    content: "\e924"
+}
+
+[class*=t-program-logo-cn] {
+    position: relative
+}
+
+/*[class*=t-program-logo-cn]:before {*/
+/*    position: absolute;*/
+/*    content: "\e921";*/
+/*    bottom: auto*/
+/*}*/
+
+/*[class*=t-program-logo-cn]:after {*/
+/*    content: "\e923"*/
+/*}*/
+
+[class*=t-program-logo-color-cn]:before, [class*=t-program-logo-color]:before {
+    color: #ff9662
+}
+
+.t-program-logo-color-xs, .t-program-logo-xs {
+    font-size: 1.3875rem
+}
+
+.t-program-logo-color-s, .t-program-logo-s {
+    font-size: 2.041rem
+}
+
+.t-program-logo-color-m, .t-program-logo-m {
+    font-size: 4.082rem
+}
+
+.t-program-logo-color-l, .t-program-logo-l {
+    font-size: 5rem
+}
+
+.t-program-logo-cn-xs, .t-program-logo-color-cn-xs {
+    font-size: 1.3875rem
+}
+
+.t-program-logo-cn-s, .t-program-logo-color-cn-s {
+    font-size: 2.041rem
+}
+
+.t-program-logo-cn-m, .t-program-logo-color-cn-m {
+    font-size: 4.082rem
+}
+
+.t-program-logo-cn-l, .t-program-logo-color-cn-l {
+    font-size: 5rem
+}
+
+.t-brand-logo-icon-MR:before {
+    content: "\e81d"
+}
+
+.t-brand-logo-icon-SPG:before {
+    content: "\e81e"
+}
+
+.t-brand-logo-icon-RCR:before, .t-brand-logo-icon-rcr:before {
+    content: "\e800"
+}
+
+.t-brand-logo-icon-RZ:before, .t-brand-logo-icon-rz:before {
+    content: "\e914"
+}
+
+.t-brand-logo-icon-EB:before, .t-brand-logo-icon-eb:before {
+    content: "\e906"
+}
+
+.t-brand-logo-icon-JW:before, .t-brand-logo-icon-jw:before {
+    content: "\e90b"
+}
+
+.t-brand-logo-icon-AK:before, .t-brand-logo-icon-ak:before {
+    content: "\e902"
+}
+
+.t-brand-logo-icon-BR:before, .t-brand-logo-icon-br:before {
+    content: "\e912"
+}
+
+.t-brand-logo-icon-DE:before, .t-brand-logo-icon-de:before {
+    content: "\e904"
+}
+
+.t-brand-logo-icon-MC:before, .t-brand-logo-icon-mc:before {
+    content: "\e90f"
+}
+
+.t-brand-logo-icon-ER:before, .t-brand-logo-icon-er:before {
+    content: "\e90e"
+}
+
+.t-brand-logo-icon-MV:before, .t-brand-logo-icon-mv:before {
+    content: "\e91a"
+}
+
+.t-brand-logo-icon-GE:before, .t-brand-logo-icon-ge:before {
+    content: "\e90a"
+}
+
+.t-brand-logo-icon-AR:before, .t-brand-logo-icon-ar:before {
+    content: "\e900"
+}
+
+.t-brand-logo-icon-CY:before, .t-brand-logo-icon-cy:before {
+    content: "\e903"
+}
+
+.t-brand-logo-icon-RI:before, .t-brand-logo-icon-ri:before {
+    content: "\e913"
+}
+
+.t-brand-logo-icon-SH:before, .t-brand-logo-icon-sh:before {
+    content: "\e916"
+}
+
+.t-brand-logo-icon-FI:before, .t-brand-logo-icon-fi:before {
+    content: "\e908"
+}
+
+.t-brand-logo-icon-TS:before, .t-brand-logo-icon-ts:before {
+    content: "\e918"
+}
+
+.t-brand-logo-icon-PR:before, .t-brand-logo-icon-pr:before {
+    content: "\e911"
+}
+
+.t-brand-logo-icon-OX:before, .t-brand-logo-icon-ox:before {
+    content: "\e910"
+}
+
+.t-brand-logo-icon-XR:before, .t-brand-logo-icon-xr:before {
+    content: "\e917"
+}
+
+.t-brand-logo-icon-LC:before, .t-brand-logo-icon-lc:before {
+    content: "\e90d"
+}
+
+.t-brand-logo-icon-WH:before, .t-brand-logo-icon-wh:before {
+    content: "\e91b"
+}
+
+.t-brand-logo-icon-WI:before, .t-brand-logo-icon-wi:before {
+    content: "\e91c"
+}
+
+.t-brand-logo-icon-SI:before, .t-brand-logo-icon-si:before {
+    content: "\e915"
+}
+
+.t-brand-logo-icon-MD:before, .t-brand-logo-icon-md:before {
+    content: "\e90c"
+}
+
+.t-brand-logo-icon-TX:before, .t-brand-logo-icon-tx:before {
+    content: "\e919"
+}
+
+.t-brand-logo-icon-DS:before, .t-brand-logo-icon-ds:before {
+    content: "\e905"
+}
+
+.t-brand-logo-icon-AL:before, .t-brand-logo-icon-al:before {
+    content: "\e901"
+}
+
+.t-brand-logo-icon-FP:before, .t-brand-logo-icon-fp:before {
+    content: "\e909"
+}
+
+.t-brand-logo-icon-EL:before, .t-brand-logo-icon-el:before {
+    content: "\e907"
+}
+
+.t-brand-logo-icon-BG:before, .t-brand-logo-icon-bg:before {
+    content: "\e91d"
+}
+
+.t-brand-logo-icon-HV:before {
+    content: "\e922"
+}
+
+.t-brand-logo-icon-tribrand:before {
+    content: "\e91f"
+}
+
+.t-brand-logo-icon-MI:before {
+    content: "\e81f"
+}
+
+[class*=t-brand-icon-svg-]:before {
+    content: " ";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.t-brand-icon-svg-rz:before {
+    /*background: url(../assets/images/brands/ritz-carlton-rewards.svg) no-repeat;*/
+    height: 5.875rem;
+    width: 12.5rem
+}
+
+.t-brand-icon-svg-eb:before {
+    /*background: url(../assets/images/brands/edition.svg) no-repeat;*/
+    height: 2.125rem;
+    width: 11.75rem
+}
+
+.t-brand-icon-svg-jw:before {
+    /*background: url(../assets/images/brands/jw-marriott.svg) no-repeat;*/
+    height: 4.8rem;
+    width: 12rem
+}
+
+.t-brand-icon-svg-ak:before {
+    /*background: url(../assets/images/brands/autograph-collection.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 11.5625rem
+}
+
+.t-brand-icon-svg-br:before {
+    /*background: url(../assets/images/brands/renaissance-hotels.svg) no-repeat;*/
+    height: 5.125rem;
+    width: 9.75rem
+}
+
+.t-brand-icon-svg-de:before {
+    /*background: url(../assets/images/brands/delta-hotels.svg) no-repeat;*/
+    height: 6.4rem;
+    width: 5rem
+}
+
+.t-brand-icon-svg-mc:before {
+    /*background: url(../assets/images/brands/marriott.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 6.5625rem
+}
+
+.t-brand-icon-svg-er:before {
+    /*background: url(../assets/images/brands/marriott-executive-apartments.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 10rem
+}
+
+.t-brand-icon-svg-mv:before {
+    /*background: url(../assets/images/brands/vacation-club.svg) no-repeat;*/
+    height: 5.125rem;
+    width: 11rem
+}
+
+.t-brand-icon-svg-ge:before {
+    /*background: url(../assets/images/brands/gaylord-hotels.svg) no-repeat;*/
+    height: 5.8125rem;
+    width: 11.75rem
+}
+
+.t-brand-icon-svg-ar:before {
+    /*background: url(../assets/images/brands/ac-hotels.svg) no-repeat;*/
+    height: 5.625rem;
+    width: 5.9375rem
+}
+
+.t-brand-icon-svg-cy:before {
+    /*background: url(../assets/images/brands/courtyard.svg) no-repeat;*/
+    height: 3.375rem;
+    width: 18.8rem
+}
+
+.t-brand-icon-svg-ri:before {
+    /*background: url(../assets/images/brands/residence-inn-marriott.svg) no-repeat;*/
+    height: 5.125rem;
+    width: 11.125rem
+}
+
+.t-brand-icon-svg-sh:before {
+    /*background: url(../assets/images/brands/springhill-suites.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 10.4375rem
+}
+
+.t-brand-icon-svg-fi:before {
+    /*background: url(../assets/images/brands/fairfield.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 9.625rem
+}
+
+.t-brand-icon-svg-ts:before {
+    /*background: url(../assets/images/brands/towneplace-suites.svg) no-repeat;*/
+    height: 4.375rem;
+    width: 11.875rem
+}
+
+.t-brand-icon-svg-pr:before {
+    /*background: url(../assets/images/brands/protea-hotels.svg) no-repeat;*/
+    height: 5.125rem;
+    width: 11.625rem
+}
+
+.t-brand-icon-svg-ox:before {
+    /*background: url(../assets/images/brands/moxy-hotels.svg) no-repeat;*/
+    height: 4.125rem;
+    width: 12rem
+}
+
+.t-brand-icon-svg-cc:before {
+    /*background: url(../assets/images/brands/marriott.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 6.5625rem
+}
+
+.t-brand-icon-svg-black-rz:before {
+    /*background: url(../assets/images/brands/ritz-carlton-rewards-black.svg) no-repeat;*/
+    height: 5.875rem;
+    width: 12.5rem
+}
+
+.t-brand-icon-svg-black-eb:before {
+    /*background: url(../assets/images/brands/edition-black.svg) no-repeat;*/
+    height: 2.125rem;
+    width: 11.75rem
+}
+
+.t-brand-icon-svg-black-jw:before {
+    /*background: url(../assets/images/brands/jw-marriott-black.svg) no-repeat;*/
+    height: 4.8rem;
+    width: 12rem
+}
+
+.t-brand-icon-svg-black-ak:before {
+    /*background: url(../assets/images/brands/autograph-collection-black.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 11.5625rem
+}
+
+.t-brand-icon-svg-black-br:before {
+    /*background: url(../assets/images/brands/renaissance-hotels-black.svg) no-repeat;*/
+    height: 5.125rem;
+    width: 9.75rem
+}
+
+.t-brand-icon-svg-black-de:before {
+    /*background: url(../assets/images/brands/delta-hotels-black.svg) no-repeat;*/
+    height: 5.625rem;
+    width: 5rem
+}
+
+.t-brand-icon-svg-black-mc:before {
+    /*background: url(../assets/images/brands/marriott-black.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 6.5625rem
+}
+
+.t-brand-icon-svg-black-er:before {
+    /*background: url(../assets/images/brands/marriott-executive-apartments-black.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 10rem
+}
+
+.t-brand-icon-svg-black-mv:before {
+    /*background: url(../assets/images/brands/vacation-club-black.svg) no-repeat;*/
+    height: 5.125rem;
+    width: 11rem
+}
+
+.t-brand-icon-svg-black-ge:before {
+    /*background: url(../assets/images/brands/gaylord-hotels-black.svg) no-repeat;*/
+    height: 5.8125rem;
+    width: 11.75rem
+}
+
+.t-brand-icon-svg-black-ar:before {
+    /*background: url(../assets/images/brands/ac-hotels-black.svg) no-repeat;*/
+    height: 5.625rem;
+    width: 5.9375rem
+}
+
+.t-brand-icon-svg-black-cy:before {
+    /*background: url(../assets/images/brands/courtyard-black.svg) no-repeat;*/
+    height: 3.375rem;
+    width: 12.25rem
+}
+
+.t-brand-icon-svg-black-ri:before {
+    /*background: url(../assets/images/brands/residence-inn-marriott-black.svg) no-repeat;*/
+    height: 5.125rem;
+    width: 11.125rem
+}
+
+.t-brand-icon-svg-black-sh:before {
+    /*background: url(../assets/images/brands/springhill-suites-black.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 10.4375rem
+}
+
+.t-brand-icon-svg-black-fi:before {
+    /*background: url(../assets/images/brands/fairfield-black.svg) no-repeat;*/
+    height: 4.875rem;
+    width: 9.625rem
+}
+
+.t-brand-icon-svg-black-ts:before {
+    /*background: url(../assets/images/brands/towneplace-suites-black.svg) no-repeat;*/
+    height: 4.375rem;
+    width: 11.875rem
+}
+
+.t-brand-icon-svg-black-pr:before {
+    /*background: url(../assets/images/brands/protea-hotels-black.svg) no-repeat;*/
+    height: 5.125rem;
+    width: 11.625rem
+}
+
+.t-brand-icon-svg-black-ox:before {
+    /*background: url(../assets/images/brands/moxy-hotels-black.svg) no-repeat;*/
+    height: 4.125rem;
+    width: 12rem
+}
+
+[class*=t-brand-icon-svg-black-]:before {
+    content: " ";
+    display: inline-block;
+    background-size: contain
+}
+
+[class*=portfolio-icon-], [class*=portfolio-icon-]:before, [class*=t-brand-icon-], [class*=t-brand-icon-svg-black-]:before {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+[class*=portfolio-icon-]:before {
+    display: inline-block;
+    font-family: PortfolioLogoIcons
+}
+
+.portfolio-icon-mr_blk_notag:before {
+    content: "\f81d"
+}
+
+.portfolio-icon-ritz-carlton:before {
+    content: "\e914"
+}
+
+.portfolio-icon-edition:before {
+    content: "\f90c"
+}
+
+.portfolio-icon-jw:before {
+    content: "\f90f"
+}
+
+.portfolio-icon-autograph-collection:before {
+    content: "\f90a"
+}
+
+.portfolio-icon-renaissance:before {
+    content: "\f915"
+}
+
+.portfolio-icon-delta-hotels:before {
+    content: "\f904"
+}
+
+.portfolio-icon-marriott:before {
+    content: "\f913"
+}
+
+.portfolio-icon-marriott-executive-apartments:before {
+    content: "\f912"
+}
+
+.portfolio-icon-vacation-club:before {
+    content: "\f91a"
+}
+
+.portfolio-icon-gaylord:before {
+    content: "\f906"
+}
+
+.portfolio-icon-ac-hotels:before {
+    content: "\f908"
+}
+
+.portfolio-icon-courtyard:before {
+    content: "\f903"
+}
+
+.portfolio-icon-residence-inn:before {
+    content: "\f900"
+}
+
+.portfolio-icon-springhill-suites:before {
+    content: "\e92b"
+}
+
+.portfolio-icon-fairfield-inn:before {
+    content: "\f905"
+}
+
+.portfolio-icon-towneplace-suites:before {
+    content: "\f902"
+}
+
+.portfolio-icon-protea-hotels:before {
+    content: "\f907"
+}
+
+.portfolio-icon-moxy:before {
+    content: "\f914"
+}
+
+.portfolio-icon-spg:before {
+    content: "\f81e"
+}
+
+.portfolio-icon-st-regis:before {
+    content: "\f918"
+}
+
+.portfolio-icon-luxury-collection:before {
+    content: "\f911"
+}
+
+.portfolio-icon-w-hotels:before {
+    content: "\f91b"
+}
+
+.portfolio-icon-westin:before {
+    content: "\f91c"
+}
+
+.portfolio-icon-sheraton:before {
+    content: "\f917"
+}
+
+.portfolio-icon-le-meridien:before {
+    content: "\f910"
+}
+
+.portfolio-icon-tribute-portfolio:before {
+    content: "\f919"
+}
+
+.portfolio-icon-design-hotels:before {
+    content: "\f90b"
+}
+
+.portfolio-icon-aloft:before {
+    content: "\f909"
+}
+
+.portfolio-icon-four-points:before {
+    content: "\f90e"
+}
+
+.portfolio-icon-element:before {
+    content: "\f90d"
+}
+
+.portfolio-icon-rcr:before {
+    content: "\f800"
+}
+
+.portfolio-icon-hotels-and-villas:before {
+    content: "\f91f"
+}
+
+.t-icon-social-facebook-messenger:before {
+    content: "\e91c"
+}
+
+.t-icon-social-facebook:before {
+    content: "\e912"
+}
+
+.t-icon-social-googleplus:before {
+    content: "\e914"
+}
+
+.t-icon-social-twitter:before {
+    content: "\e918"
+}
+
+.t-icon-social-instagram:before {
+    content: "\e915"
+}
+
+.t-icon-social-youtube:before {
+    content: "\e91d"
+}
+
+.t-icon-social-linkedin:before {
+    content: "\e916"
+}
+
+.t-icon-social-pinterest:before {
+    content: "\e917"
+}
+
+.t-icon-social-naver:before {
+    content: "\e923"
+}
+
+.t-icon-social-kakao:before {
+    content: "\e91f"
+}
+
+.t-icon-weather-tornado:before {
+    content: "\e80b"
+}
+
+.t-icon-weather-storms:before {
+    content: "\e808"
+}
+
+
+.t-icon-weather-cloud-rain-lightning:before {
+    content: "\e810"
+}
+
+.t-icon-weather-showers-light:before {
+    content: "\e803"
+}
+
+.t-icon-weather-showers-heavy:before {
+    content: "\e802"
+}
+
+.t-icon-weather-snow-light:before {
+    content: "\e805"
+}
+
+.t-icon-weather-snow-medium:before {
+    content: "\e806"
+}
+
+.t-icon-weather-hail:before {
+    content: "\e81a"
+}
+
+.t-icon-weather-cloud-wind:before {
+    content: "\e815"
+}
+
+.t-icon-weather-cloud-wind-2:before {
+    content: "\e816"
+}
+
+.t-icon-weather-windy:before {
+    content: "\e809"
+}
+
+.t-icon-weather-partially-cloudy:before {
+    content: "\e81d"
+}
+
+.t-icon-weather-cloudy-partially-night:before {
+    content: "\e819"
+}
+
+.t-icon-weather-cloudy-partially-day:before {
+    content: "\e820"
+}
+
+.t-icon-weather-moon-25:before {
+    content: "\e81c"
+}
+
+.t-icon-weather-sunny:before {
+    content: "\e80a"
+}
+
+.t-icon-weather-storms-day:before {
+    content: "\e81e"
+}
+
+.t-icon-weather-rain:before {
+    content: "\e800"
+}
+
+.t-icon-weather-cloud-rain-2-sun:before {
+    /*content: icon-weather-cloud-rain-2-sun*/
+}
+
+.t-icon-weather-snow-heavy:before {
+    content: "\e804"
+}
+
+.t-icon-weather-cloud-fog:before {
+    content: "\e80d"
+}
+
+.t-icon-weather-cloud-rain-moon:before {
+    content: "\e812"
+}
+
+.t-icon-weather-snow-medium-night:before {
+    content: "\e807"
+}
+
+.t-icon-weather-cloud-rain-lightning-moon:before {
+    content: "\e811"
+}
+
+.icon, .t-icon-menu, [class*=" icon-"], [class^=icon-] {
+    vertical-align: middle;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    font-family: MarriottIcons;
+    line-height: inherit;
+    speak: none
+}
+
+.t-icon-menu {
+    color: #1c1c1c
+}
+
+.t-icon-menu:before {
+    content: "\e00c"
+}
+
+
+.l-float-left {
+    float: left;
+}
+
+.t-color-standard-40 {
+    color: #231c19;
+}
+
+footer{
+    color: #fff;
+    background-color: #231c19;
+    padding: 60px 0 60px 0;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+#ccpacontainer{
+    list-style: none;
+    text-align: center;
+}
+
+.m-brand-portfolio{
+    padding-bottom: 2rem !important;
+}
+
+.l-universal-footer-link{
+    text-align: center;
+    color: white;
+}
+
+
+.tile-logos-portfolio {
+    margin: 0 auto;
+    padding: 2rem 0rem 4rem 0rem;
+    position: relative;
+}
+.tile-logos-portfolio .t-program-logo-cn::after {
+    font-size: 2.3rem;
+}
+.tile-logos-portfolio .t-program-logo-cn::before {
+    bottom: 0.75rem;
+    left: -1.15rem;
+}
+.tile-logos-portfolio #portfolio-container span {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+}
+.tile-logos-portfolio #portfolio-container span.l-category-title {
+    position: static;
+    width: 100%;
+    margin-bottom: 0.75rem;
+    color: white;
+    font-weight: 600;
+}
+.tile-logos-portfolio #portfolio-container .l-luxury-logos a, .tile-logos-portfolio #portfolio-container .l-premium-logos a, .tile-logos-portfolio #portfolio-container .l-select-logos a, .tile-logos-portfolio #portfolio-container .l-longer-stays-logos a {
+    margin-right: 1.5625rem;
+    width: auto;
+}
+.tile-logos-portfolio #portfolio-container .l-luxury-logosa:nth-child(2n+1), .tile-logos-portfolio #portfolio-container .l-premium-logosa:nth-child(2n+1), .tile-logos-portfolio #portfolio-container .l-select-logosa:nth-child(2n+1), .tile-logos-portfolio #portfolio-container .l-longer-stays-logosa:nth-child(2n+1) {
+    margin-right: 0;
+}
+.tile-logos-portfolio #portfolio-container .l-premium, .tile-logos-portfolio #portfolio-container .l-select, .tile-logos-portfolio #portfolio-container .l-longer-stays {
+    margin-top: 0.75rem;
+}
+.tile-logos-portfolio a {
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.tile-logos-portfolio .t-logo-main {
+    position: absolute;
+    /*top: 1rem;*/
+    top: 0;
+    z-index: 3;
+    background-color: #231c19;
+    padding: 0 0.4375rem;
+}
+.tile-logos-portfolio .t-logo-main span {
+    position: absolute;
+    clip: rect(0.5px 0.5px 0.5px 0.5px);
+    left: 0;
+}
+
+.tile-logos-portfolio .t-logo-main{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 140px;
+}
+
+.tile-logos-portfolio .t-logo-main a {
+    /*width: auto;*/
+    top: -4px;
+    color: white;
+    width: 100%;
+}
+
+/*.m-brand-portfolio{*/
+/*    -webkit-box-align: center;*/
+/*    -ms-flex-align: center;*/
+/*    align-items: center;*/
+/*    text-align:right;*/
+/*    flex-direction: column;*/
+/*}*/
+
+.tile-logos-portfolio .m-porfolio-container{
+    margin: 0 !important;
+}
+
+.body-lang-cn .tile-logos-portfolio .t-logo-main a{
+    padding: 7px 14px;
+}
+
+.body-lang-zh .tile-logos-portfolio .t-logo-main a{
+    top: 4px;
+    color: white;
+    width: 98px;
+}
+
+.tile-logos-portfolio .t-portfolio-sprite {
+    /*background: url("/Images/Brands/NicMarriott/brand_portfolio_ribbon_sprite.png") no-repeat transparent;*/
+    background-position: -27px 0;
+}
+.tile-logos-portfolio .m-porfolio-container {
+    padding: 1.9375rem 1.25rem 0.875rem 1.25rem;
+}
+.tile-logos-portfolio .m-porfolio-container.t-linear-gradient-border {
+    border: 0;
+    border-top: 2px solid #d2d2d2;
+    border-bottom: 2px solid #d2d2d2;
+    position: relative;
+}
+.tile-logos-portfolio .m-porfolio-container.t-linear-gradient-border:before, .tile-logos-portfolio .m-porfolio-container.t-linear-gradient-border:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    z-index: 1;
+}
+.tile-logos-portfolio .m-porfolio-container.t-linear-gradient-border:before {
+    background: #d2d2d2;
+    top: 0;
+    left: 0;
+}
+.tile-logos-portfolio .m-porfolio-container.t-linear-gradient-border:after {
+    background: #d2d2d2;
+    top: 0;
+    right: 0;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-row {
+    position: relative;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-row .l-portfolio-reward .t-portfolio-sprite {
+    background-size: 414px;
+    background-color: #fff;
+    background-position: 0 0;
+    display: block;
+    height: 1.5rem;
+    width: 5.875rem;
+    position: absolute;
+    z-index: 1;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-row .l-portfolio-reward .t-portfolio-rz-r {
+    background: #fff;
+    right: 5.625rem;
+    top: -3.125rem;
+    width: 6.125rem;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-row .l-portfolio-reward .t-portfolio-mi-r {
+    background: #fff;
+    height: 2.3125rem;
+    right: -0.25rem;
+    top: -3.125rem;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-row .l-portfolio-reward .t-portfolio-spg {
+    background: #fff;
+    top: -3.125rem;
+    left: 0.025rem;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-list {
+    list-style: none;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-list li {
+    display: inline-block;
+    padding: 0rem;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-list li .t-portfolio-sprite {
+    background-position: 0 0;
+    display: block;
+    height: 3.125rem;
+    width: 4.75rem;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-mi {
+    display: inline-block;
+    vertical-align: top;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-spg {
+    display: inline-block;
+    width: 35%;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-spg ul li {
+    padding: 0;
+    max-width: 4.625rem;
+}
+.tile-logos-portfolio .m-porfolio-container .l-portfolio-spg ul li .t-portfolio-sprite {
+    height: 2.5rem;
+    width: 4.625rem;
+}
+.tile-logos-portfolio .l-xl-screen {
+    display: block;
+}
+.tile-logos-portfolio .l-sm-screen {
+    display: none;
+}
+.tile-logos-portfolio a {
+    text-decoration: none;
+}
+.tile-logos-portfolio .t-portfolio-rz-r, .tile-logos-portfolio .t-portfolio-mi-r, .tile-logos-portfolio .t-portfolio-spg {
+    background: #fff;
+}
+.tile-logos-portfolio .portfolio-icon-mr_blk_notag::before {
+    font-size: 2.26rem;
+}
+.tile-logos-portfolio .portfolio-icon-ritz-carlton::before {
+    font-size: 2.4rem;
+}
+.tile-logos-portfolio .portfolio-icon-autograph-collection::before {
+    font-size: 1.56rem;
+}
+.tile-logos-portfolio .portfolio-icon-marriott-executive-apartments::before {
+    font-size: 1.56rem;
+}
+.tile-logos-portfolio .portfolio-icon-edition::before {
+    font-size: 0.75rem;
+}
+.tile-logos-portfolio .portfolio-icon-delta-hotels::before {
+    font-size: 2.1rem;
+}
+.tile-logos-portfolio .portfolio-icon-courtyard::before {
+    font-size: 0.42rem;
+}
+.tile-logos-portfolio .portfolio-icon-residence-inn::before {
+    font-size: 0.58rem;
+}
+.tile-logos-portfolio .portfolio-icon-springhill-suites::before {
+    font-size: 1.28rem;
+}
+.tile-logos-portfolio .portfolio-icon-fairfield-inn::before {
+    font-size: 0.67rem;
+}
+.tile-logos-portfolio .portfolio-icon-towneplace-suites::before {
+    font-size: 0.95rem;
+}
+.tile-logos-portfolio .portfolio-icon-protea-hotels::before {
+    font-size: 1.27rem;
+}
+.tile-logos-portfolio .portfolio-icon-moxy::before {
+    font-size: 1.4rem;
+}
+.tile-logos-portfolio .portfolio-icon-st-regis::before {
+    font-size: 2.2rem;
+}
+.tile-logos-portfolio .portfolio-icon-westin::before {
+    font-size: 0.6rem;
+}
+.tile-logos-portfolio .portfolio-icon-le-meridien::before {
+    font-size: 0.6rem;
+}
+.tile-logos-portfolio .portfolio-icon-tribute-portfolio::before {
+    font-size: 1rem;
+}
+.tile-logos-portfolio .portfolio-icon-design-hotels::before {
+    font-size: 1.1rem;
+}
+.tile-logos-portfolio .portfolio-icon-aloft::before {
+    font-size: 1.3rem;
+}
+.tile-logos-portfolio .portfolio-icon-four-points::before {
+    font-size: 1.1rem;
+}
+.tile-logos-portfolio .portfolio-icon-rcr::before {
+    font-size: 1.08rem;
+}
+.tile-logos-portfolio .portfolio-icon-element::before {
+    font-size: 2.1rem;
+}
+.tile-logos-portfolio .t-portfolio-spg::before {
+    font-size: 1.35rem;
+}
+.tile-logos-portfolio .portfolio-icon-ac-hotels::before {
+    font-size: 2.1rem;
+}
+.tile-logos-portfolio .portfolio-icon-marriott::before {
+    font-size: 2.4rem;
+}
+.tile-logos-portfolio .portfolio-icon-vacation-club::before {
+    font-size: 2.5rem;
+}
+.m-porfolio-container a {
+    color: white;
+    height: auto;
+    width: 4.75rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+.m-porfolio-container a::before {
+    font-size: 2rem;
+}
+.m-porfolio-container a:hover {
+    color: #707070;
+}
+@media (min-width: 37.56rem) {
+    .tile-logos-portfolio .l-portfolio-spg a {
+        height: 1.8rem;
+    }
+    .tile-logos-portfolio .t-portfolio-rz-r, .tile-logos-portfolio .t-portfolio-mi-r {
+        left: -6.25rem !important;
+    }
+    .tile-logos-portfolio .t-portfolio-spg {
+        height: 3rem !important;
+        padding: 0.7rem 0;
+    }
+    .tile-logos-portfolio .portfolio-icon-rcr {
+        padding-top: 0.75rem;
+    }
+}
+@media (max-width: 29.937rem) {
+    .tile-logos-portfolio .l-portfolio-mi ul {
+        float: left;
+        width: 50%;
+    }
+    .tile-logos-portfolio .portfolio-icon-mr_blk_notag::before {
+        padding-left: 0.375rem;
+    }
+    .tile-logos-portfolio .t-portfolio-spg {
+        width: 6.5rem !important;
+        padding-left: 0.5rem;
+        top: -2.65rem !important;
+    }
+    .tile-logos-portfolio .t-portfolio-rz-r {
+        width: 7.125rem !important;
+        right: 5.625rem !important;
+        top: -2.26rem !important;
+    }
+    .tile-logos-portfolio .icon-mr_blk_notag::before {
+        margin-left: 0.4rem;
+    }
+    .tile-logos-portfolio .l-sm-screen {
+        display: block !important;
+    }
+    .tile-logos-portfolio .l-xl-screen {
+        display: none !important;
+    }
+    .tile-logos-portfolio .l-portfolio-spg a {
+        height: 2.46rem;
+    }
+    .tile-logos-portfolio .l-portfolio-list {
+        line-height: 2.18rem;
+    }
+}
+@media (min-width: 37.56rem) {
+    .tile-logos-portfolio .m-porfolio-container {
+        padding: 1.9375rem 0 0.625rem 0.3125rem;
+    }
+    .tile-logos-portfolio .m-porfolio-container.t-linear-gradient-border {
+        border: 0;
+        border-left: 2px solid #d2d2d2;
+        border-right: 2px solid #d2d2d2;
+        position: relative;
+    }
+    .tile-logos-portfolio .m-porfolio-container.t-linear-gradient-border:before, .tile-logos-portfolio .m-porfolio-container.t-linear-gradient-border:after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        z-index: 1;
+        left: 0;
+    }
+    .tile-logos-portfolio .m-porfolio-container.t-linear-gradient-border:before {
+        top: 0;
+    }
+    .tile-logos-portfolio .m-porfolio-container.t-linear-gradient-border:after {
+        bottom: 0;
+        top: inherit;
+        right: inherit;
+    }
+    .tile-logos-portfolio .m-porfolio-container .l-portfolio-row {
+        margin-left: 3.125rem;
+        position: relative;
+    }
+    .tile-logos-portfolio .m-porfolio-container .l-portfolio-row .l-portfolio-reward .t-portfolio-sprite {
+        background-size: auto;
+        background-color: #fff;
+        background-position: 0 0;
+        display: block;
+        height: 8.125rem;
+        width: 7.25rem;
+        position: absolute;
+    }
+    .tile-logos-portfolio .m-porfolio-container .l-portfolio-row .l-portfolio-reward .t-portfolio-rz-r {
+        background: #fff;
+        left: -7.25rem;
+        top: 0;
+    }
+    .tile-logos-portfolio .m-porfolio-container .l-portfolio-row .l-portfolio-reward .t-portfolio-mi-r {
+        background: #fff;
+        border: 0;
+        height: 11.875rem;
+        left: -7.25rem;
+        top: 4.375rem;
+    }
+    .tile-logos-portfolio .m-porfolio-container .l-portfolio-row .l-portfolio-reward .t-portfolio-spg {
+        background: #fff;
+        left: -6.25rem;
+        top: -0.625rem;
+    }
+    .tile-logos-portfolio .m-porfolio-container .l-portfolio-list li {
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    .tile-logos-portfolio .m-porfolio-container .l-portfolio-mi {
+        display: block;
+        width: auto;
+    }
+    .tile-logos-portfolio .m-porfolio-container .l-portfolio-spg {
+        border: 0;
+        display: block;
+        width: auto;
+        margin-left: 3.5rem;
+    }
+}
+@media (min-width: 64.0625rem) {
+    .tile-logos-portfolio .m-porfolio-container .l-portfolio-row .l-portfolio-reward .t-portfolio-mi-r {
+        height: 5.3125rem;
+        top: 4.0625rem;
+    }
+}
+@media (min-width: 37.56rem) {
+    .tile-logos-portfolio #portfolio-container .l-luxury-logos a, .tile-logos-portfolio #portfolio-container .l-premium-logos a, .tile-logos-portfolio #portfolio-container .l-select-logos a, .tile-logos-portfolio #portfolio-container .l-longer-stays-logos a {
+        margin-right: 1.5rem;
+    }
+    .tile-logos-portfolio #portfolio-container .l-luxury-logos a:nth-child(2n+1), .tile-logos-portfolio #portfolio-container .l-premium-logos a:nth-child(2n+1), .tile-logos-portfolio #portfolio-container .l-select-logos a:nth-child(2n+1), .tile-logos-portfolio #portfolio-container .l-longer-stays-logos a:nth-child(2n+1) {
+        margin-right: 1.5rem;
+    }
+    .tile-logos-portfolio #portfolio-container .l-premium, .tile-logos-portfolio #portfolio-container .l-select, .tile-logos-portfolio #portfolio-container .l-longer-stays {
+        margin-top: 0;
+    }
+    .tile-logos-portfolio .t-logo-main {
+        padding: 0 0.625rem;
+    }
+}
+@media (min-width: 37.56rem) {
+    html[lang="ja_JP"] .tile-logos-portfolio #portfolio-container .l-premium-logos a:nth-child(2n+1) {
+        margin-right: 0.69rem;
+    }
+}
+@media (min-width: 37.56rem) {
+    html[lang="ru_RU"] .tile-logos-portfolio #portfolio-container .l-premium span.l-category-title {
+        padding-right: 0.6rem;
+    }
+}
+@media (min-width: 48.1rem) {
+    .tile-logos-portfolio .m-porfolio-container {
+        padding: 1.9375rem 1.25rem 0.875rem 1.25rem;
+    }
+    .tile-logos-portfolio #portfolio-container span.l-category-title {
+        width: auto;
+        padding-right: 5px;
+    }
+    .tile-logos-portfolio #portfolio-container .l-luxury-logos a, .tile-logos-portfolio #portfolio-container .l-premium-logos a, .tile-logos-portfolio #portfolio-container .l-select-logos a, .tile-logos-portfolio #portfolio-container .l-longer-stays-logos a {
+        margin-right: 1.4375rem;
+    }
+    .tile-logos-portfolio #portfolio-container .l-luxury-logos a:nth-child(2n+1), .tile-logos-portfolio #portfolio-container .l-premium-logos a:nth-child(2n+1), .tile-logos-portfolio #portfolio-container .l-select-logos a:nth-child(2n+1), .tile-logos-portfolio #portfolio-container .l-longer-stays-logos a:nth-child(2n+1) {
+        margin-right: 1.4375rem;
+    }
+    .tile-logos-portfolio #portfolio-container .l-premium span.l-category-title {
+        padding-right: 0.9375rem;
+    }
+    .tile-logos-portfolio .t-logo-main {
+        /*padding: 0 0.875rem;*/
+        padding: 0;
+    }
+    .tile-logos-portfolio .portfolio-icon-tribute-portfolio::before {
+        font-size: 0.8rem;
+    }
+}
+html[dir="rtl"] .tile-logos-portfolio .m-porfolio-container {
+    padding-bottom: 1.25rem;
+}
+html[dir="rtl"] .tile-logos-portfolio .t-logo-main {
+    top: 0.5rem;
+}
+html[dir="rtl"] .tile-logos-portfolio .l-portfolio-spg {
+    margin-top: 0;
+}
+@media (min-width: 37.56rem) {
+    html[dir="rtl"] .tile-logos-portfolio .l-portfolio-spg {
+        margin-top: 2rem;
+    }
+}
+html[dir="rtl"] .tile-logos-portfolio .l-portfolio-spg ul {
+    padding-left: 1rem;
+}
+
+@media (max-width: 768px) {
+    .footer-container a{
+        font-size: 12px;
+    }
+
+    .tile-logos-portfolio #portfolio-container .l-luxury-logos a, .tile-logos-portfolio #portfolio-container .l-premium-logos a, .tile-logos-portfolio #portfolio-container .l-select-logos a, .tile-logos-portfolio #portfolio-container .l-longer-stays-logos a {
+        margin-right: 1rem;
+        width: auto;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    footer{
+        padding: 20px 0 20px 0;
+    }
+}
+
